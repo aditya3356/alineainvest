@@ -1,0 +1,9 @@
+{
+    "API_KEY": "PKZK2FIAJ0VKATLBF0AH",
+    "SECRET_KEY": "7MnD6vpPwW86keqwwp5qRU2SxG8TUgRAhS5lMLYp",
+
+    "END_POINT": "https://cors-anywhere.herokuapp.com/https://data.alpaca.markets/v1/",
+    "FIREBASE_API_KEY": "AIzaSyCcsod4KZzJqDptCFVlSrhQwDU3Vy-3YFw",
+    "FIREBASE_AUTHDOMAIN": "alineainvest-ec36f.firebaseapp.com",
+    "FIREBASE_END_POINT": "https://alineainvest-ec36f-default-rtdb.firebaseio.com"
+}

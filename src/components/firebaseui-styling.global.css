@@ -1,0 +1,33 @@
+.firebaseui-idp-button {
+    direction: ltr;
+    font-weight: 500;
+    height: auto;
+    line-height: normal;
+    max-width: 400px;
+    min-height: 20px;
+    padding: 8px 8px;
+    text-align: left;
+    width: 100%;
+    border-radius: 5%;
+    height: 45px;
+    box-sizing: border-box;
+}
+
+img {
+    margin-right: 0px !important;
+}
+
+img {
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50px;
+}
+
+.firebaseui-idp-text {
+    color: #fff !important;
+    display: table-cell !important;
+    font-size: 14px !important;
+    padding-left: 8px !important;
+    text-transform: none !important;
+    vertical-align: middle !important;
+}

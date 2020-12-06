@@ -1,0 +1,17 @@
+.FirstHalf {
+    width: 50%;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 48px;
+}
+
+.SecondHalf {
+    width: 50%;
+    text-align: center;
+    margin-top: 40px;
+    color: #AE42C9;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px
+}
