@@ -1,17 +1,15 @@
 import React, { Component } from 'react';
-import Navbar from '../../containers/Navbar/Navbar';
-import Table from '../Table/Table';
+import Navbar from '../../components/Navbar/Navbar';
+import Table from '../../components/Table/Table';
 import axios from 'axios';
 import config from '../../config.json';
 import stockList from '../../data.json';
-import Autocomplete from '../Autocomplete/Autocomplete';
+import Autocomplete from '../../components/Autocomplete/Autocomplete';
 import logoList from '../../logos.json';
-import Modal from '../Modal/Modal';
+import Modal from '../../components/Modal/Modal';
 import classes from './Layout.css';
 import firebase from "firebase";
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth";
-import Spinner from '../Spinner/Spinner';
-import '../firebaseui-styling.global.css';
 
 firebase.initializeApp({
     apiKey: config.FIREBASE_API_KEY,

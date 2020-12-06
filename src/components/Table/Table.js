@@ -19,28 +19,27 @@ const table = (props) => {
                 <Table aria-label="simple table">
                     <TableHead>
                         <TableRow>
-                            <TableCell><span><strong>COMPANY</strong></span></TableCell>
+                            <TableCell className={classes.ColumnHeader}><span><strong>COMPANY</strong></span></TableCell>
                             {props.heading=="Watchlist"? 
-                            <TableCell align="right"><span style={{marginRight:"30px"}}><strong>MARKET PRICE</strong></span></TableCell>:
-                            <TableCell align="right"><span><strong>MARKET PRICE</strong></span></TableCell>}
+                            <TableCell align="right" className={classes.ColumnHeader}><span style={{marginRight:"30px"}}><strong>MARKET PRICE</strong></span></TableCell>:
+                            <TableCell align="right" className={classes.ColumnHeader}><span><strong>MARKET PRICE</strong></span></TableCell>}
                         </TableRow>
                     </TableHead>
                     
                     <TableBody>
                     {props.rows.map((row) => (
                         <TableRow key={row.name}>
-                            <TableCell component="th" scope="row">
+                            <TableCell component="th" scope="row" className={classes.ListItem}>
                                 <span style={{display: "flex", alignItems: "center", marginLeft: "0px"}}>
                                     <img 
                                     src = {row.logo} 
                                     alt="image" 
-                                    width="60px"
-                                    height="60px"
+                                    className={classes.ListImage}
                                     />
                                     {row.name}
                                 </span>
                             </TableCell>
-                            <TableCell align="right" style={{display: "flex", alignItems: "center"}}>
+                            <TableCell align="right" style={{display: "flex", alignItems: "center"}} className={classes.ListItem}>
                                 {props.heading=="Watchlist"? <CancelIcon style={{marginLeft: "20px"}} onClick = {() => props.clicked(row)} />: null}
                                 <div>
                                     <p><span><strong>${row.marketPrice}</strong></span> USD</p>

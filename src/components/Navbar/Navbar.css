@@ -25,3 +25,9 @@ img {
     text-transform: none !important;
     vertical-align: middle !important;
 }
+
+.TabItem{
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 700 !important;
+    font-size: 25px !important;
+}
